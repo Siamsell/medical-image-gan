@@ -91,8 +91,8 @@ We started the project from an open-source GAN repository on GitHub. The model a
 - `tojpg.ipynb` – Python script to convert JPG images from DICOM using slicer
 - `outputs/` – Where images should be output after each epoch
 - `imagme_medical.zip/` – JPG image storage directory created from DICOM for training
--  `stylgan.ipynb/` _ StyleGAN3 model
--  -  `costum-dataset.ipynb/` _ 
+- `stylgan.ipynb/` _ StyleGAN3 model
+- `costum-dataset.ipynb/` _ Medical Image Dataset Loader and Visualizer for Deep Learning (PyTorch)
 ---
 ## Technologies Used
 
@@ -112,9 +112,9 @@ We started the project from an open-source GAN repository on GitHub. The model a
 ## Sample Results
 ### DCGAN Output
 ## Dataset Name and Provider
--Dataset Name: Pancreas-CT
+- Dataset Name: Pancreas-CT
 - Provider: The Cancer Imaging Archive (TCIA)
--URL for Access:
+- URL for Access:
 [dicom dataset]([https://github.com/Siamsell/medical-image-gan](https://www.cancerimagingarchive.net/collection/pancreas-ct/))**
 ## Reading DICOM files:
 DICOM files within each patient directory were searched and read recursively using the
