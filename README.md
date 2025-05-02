@@ -19,7 +19,18 @@
 </div>
 
 <div align="center" style="margin: 3rem 0;">
-  <img src="https://od.lk/s/ODZfNjkzODQyNDhf/GAN-1.png" alt="GAN Architecture" style="border-radius: 20px; max-width: 50%; box-shadow: 0 8px 24px rgba(0,0,0,0.12); border: 1px solid rgba(0,0,0,0.08);">
+  <img 
+    src="https://od.lk/s/ODZfNjkzODQyNDhf/GAN-1.png" 
+    alt="GAN Architecture" 
+    style="
+      width: 200px;          /* Ajustez la taille */
+      height: 200px;         /* Carré pour un cercle parfait */
+      border-radius: 10%;    /* Forme circulaire */
+      object-fit: cover;     /* Garantit que l'image remplit le cercle */
+      box-shadow: 0 8px 24px rgba(0,0,0,0.12); 
+      border: 1px solid rgba(0,0,0,0.08);
+    "
+  >
 </div>
 
 ## Key Features
