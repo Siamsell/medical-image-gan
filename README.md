@@ -26,7 +26,8 @@
       width: 200px;          /* Ajustez la taille */
       height: 200px;         /* Carré pour un cercle parfait */
       border-radius: 10%;    /* Forme circulaire */
-      object-fit: cover;     /* Garantit que l'image remplit le cercle */
+      object-fit: cover; 
+    margin-top:20px; /* Garantit que l'image remplit le cercle */
       box-shadow: 0 8px 24px rgba(0,0,0,0.12); 
       border: 1px solid rgba(0,0,0,0.08);
     "
@@ -132,7 +133,7 @@ We started the project from an open-source GAN repository on GitHub. The model a
 ---
 ## Authors
 # SS | Sellami Siham
-# FZ | Fatma Zouhre
+# FZ | Fatma Zohra
 # IS | Ikram Saidani
 ## Future Improvements
 
