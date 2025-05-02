@@ -460,13 +460,9 @@
 
     <script>
        
-       function downloadPDF() {
-    const link = document.createElement('a');
-    link.href = 'memoire .pdf';
-    link.download = 'memoire .pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+          function downloadPDF() {
+        const link = "https://www.opendrive.com/download/ODZfNjkzODM4MzNfU25IeGI?folder_id=ODZfNjM2ODcwOV9ld2k1MA";
+        window.open(link, "_blank");
 }
 
         function handleUserInput() {
