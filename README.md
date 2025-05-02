@@ -1,5 +1,5 @@
 <div align="center">
-  <h1 style="font-size: 3.5rem; font-weight: 800; background: linear-gradient(90deg, #051C2F, #DB7093); -webkit-background-clip: text; color: transparent; margin-bottom: 1rem; font-family: 'Segoe UI', sans-serif;">
+  <h1 style="font-size: 3.5rem; font-weight: 900; background: linear-gradient(90deg, #051C2F, #DB7093); -webkit-background-clip: text; color: transparent; margin-bottom: 1rem; font-family: 'Segoe UI', sans-serif;">
     MEDICAL IMAGE SYNTHESIS WITH GANS
   </h1>
   
@@ -19,7 +19,7 @@
 </div>
 
 <div align="center" style="margin: 3rem 0;">
-  <img src="https://od.lk/s/ODZfNjkzODQyNDhf/GAN-1.png" alt="GAN Architecture" style="border-radius: 12px; max-width: 90%; box-shadow: 0 8px 24px rgba(0,0,0,0.12); border: 1px solid rgba(0,0,0,0.08);">
+  <img src="https://od.lk/s/ODZfNjkzODQyNDhf/GAN-1.png" alt="GAN Architecture" style="border-radius: 20px; max-width: 50%; box-shadow: 0 8px 24px rgba(0,0,0,0.12); border: 1px solid rgba(0,0,0,0.08);">
 </div>
 
 ## ✨ Key Features
