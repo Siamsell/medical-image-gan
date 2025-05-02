@@ -1,3 +1,4 @@
+ T["<div style='font-size:36px; font-weight:900; font-family:Arial; text-align:center; background:linear-gradient(45deg, #FFD700, #DB7093); -webkit-background-clip:text; color:transparent; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);'>GANS</div><div style='text-align:center; font-size:18px; margin-top:10px;'>Generative Adversarial Networks</div>"]:::title
 
 # Medical Image Synthesis with GANs
 
