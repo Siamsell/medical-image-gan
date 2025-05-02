@@ -133,7 +133,7 @@ We started the project from an open-source GAN repository on GitHub. The model a
 ---
 ## Authors
 # SS | Sellami Siham
-# FZ | bedj_bedj Fatma Zohra
+# BF | bedj bedj Fatma Zohra
 # IS | Ikram Saidani
 ## Future Improvements
 
