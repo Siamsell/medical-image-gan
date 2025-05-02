@@ -1,5 +1,7 @@
- T["<div style='font-size:36px; font-weight:900; font-family:Arial; text-align:center; background:linear-gradient(45deg, #FFD700, #DB7093); -webkit-background-clip:text; color:transparent; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);'>GANS</div><div style='text-align:center; font-size:18px; margin-top:10px;'>Generative Adversarial Networks</div>"]:::title
-
+<div align="center">
+  <h1 style="font-size: 3.5em; font-weight: 900; background: linear-gradient(45deg, #FFD700, #DB7093, #051C2F); -webkit-background-clip: text; color: transparent; text-shadow: 2px 2px 8px rgba(0,0,0,0.2); margin-bottom: 0;">
+    GANS
+  </h1>
 # Medical Image Synthesis with GANs
 
 The project entails employing **Generative Adversarial Networks (GANs)**—an ambitious class of deep learning models—to create realistic medical images. The method is used in the **DCGAN (Deep Convolutional GAN)** model with inspiration from **StyleGAN** for extra visual realism and diversity.
