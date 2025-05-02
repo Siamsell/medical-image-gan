@@ -98,7 +98,7 @@ We started the project from an open-source GAN repository on GitHub. The model a
 | Tool / Library    | Purpose                             |
 |-------------------|-------------------------------------|
 | Python 3.x        | Programming language                |
-| PyTorch / TensorFlow | Deep learning frameworks           |
+| PyTorch / TensorFlow | Deep learning frameworks         |
 | NumPy             | Numerical computation               |
 | Matplotlib        | Visualization                       |
 | fastai            | Training simplification             |
