@@ -73,7 +73,7 @@ We started the project from an open-source GAN repository on GitHub. The model a
 - Fatma Zouhre Bedjbedj
 - Ikram Saidani
 ---
-##Future Improvements
+## Future Improvements
 
 - Use high-end **StyleGAN2/3** modules
 
