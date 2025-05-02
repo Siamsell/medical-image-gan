@@ -115,7 +115,7 @@ We started the project from an open-source GAN repository on GitHub. The model a
 - Dataset Name: Pancreas-CT
 - Provider: The Cancer Imaging Archive (TCIA)
 - URL for Access:
-[dicom dataset]([https://github.com/Siamsell/medical-image-gan](https://www.cancerimagingarchive.net/collection/pancreas-ct/))**
+[dicom dataset](https://www.cancerimagingarchive.net/collection/pancreas-ct/)**
 ## Reading DICOM files:
 DICOM files within each patient directory were searched and read recursively using the
 pydicom library.
@@ -142,6 +142,8 @@ After the removal of all such blank slices, the cleaned collection of JPEG image
 then uploaded to Kaggle again as a cleaned curated dataset. Subsequent to this cleaned
 and curated dataset, a Deep Convolutional Generational Adversarial Network (DCGAN)
 was also trained for the generation of realistic fake abdominal CT slices.
+
+### DCGAN-Inspired Output
 ![DCGAN](https://od.lk/s/ODZfNjkzODM2OTRf/dcgansimple.jpg)
 ### StyleGAN-Inspired Output
 
