@@ -120,9 +120,9 @@ We started the project from an open-source GAN repository on GitHub. The model a
 ![Training Loss](https://od.lk/s/ODZfNjkzODM3NjFf/loss.jpg)
 ---
 ## Authors
-## SS | Sellami Siham
-## FZ | Fatma Zouhre
-## IS | Ikram Saidani
+# SS | Sellami Siham
+# FZ | Fatma Zouhre
+# IS | Ikram Saidani
 ## Future Improvements
 
 - Use high-end **StyleGAN2/3** modules
