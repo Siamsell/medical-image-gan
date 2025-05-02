@@ -13,8 +13,6 @@ A **Generative Adversarial Network (GAN)** is a machine learning algorithm that 
 - **Generator**: Produces synthetic data (e.g., images) from noise.
 - **Discriminator**: Learns to identify whether data is real or synthetic data.
 Both models are trained jointly within a framework of a game where the generator attempts to deceive the discriminator, and the discriminator attempts to detect counterfeit data.
--
-
 
 ```mermaid
 graph TD
@@ -26,12 +24,12 @@ graph TD
     F -->|Mise à jour| B
     F -->|Mise à jour| E
     
-    classDef noise fill:#F0F8FF,stroke:#051C2F,stroke-width:2px
-    classDef generator fill:#E6E6FA,stroke:#170637,stroke-width:2px
-    classDef fake fill:#FFE4E1,stroke:#661B0E,stroke-width:2px
-    classDef real fill:#F0FFF0,stroke:#2E8B57,stroke-width:2px
-    classDef discriminator fill:#D5ABB9,stroke:#DB7093,stroke-width:2px
-    classDef loss fill:#BABAAA,stroke:#FFD700,stroke-width:2px
+    classDef noise fill:#F0F8FF,stroke:#051C2F,stroke-width:2px,color:black
+    classDef generator fill:#E6E6FA,stroke:#170637,stroke-width:2px,color:black
+    classDef fake fill:#FFE4E1,stroke:#661B0E,stroke-width:2px,color:black
+    classDef real fill:#F0FFF0,stroke:#2E8B57,stroke-width:2px,color:black
+    classDef discriminator fill:#D5ABB9,stroke:#DB7093,stroke-width:2px,color:black
+    classDef loss fill:#BABAAA,stroke:#FFD700,stroke-width:2px,color:black
 ```
 ## Project Description
 ### 1. Dataset Preparation
