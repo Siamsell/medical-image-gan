@@ -499,24 +499,24 @@
 
         function generateResponse(query) {
     const responses = {
-        'gan': '[Medical-GAN] Framework génératif révolutionnaire pour :\n- Synthèse d\'images DICOM réalistes (CT/MRI/X-ray)\n- Augmentation de données préservant les annotations\n- Génération différentiable sous contraintes anatomiques\nArchitecture : Generator (U-Net++ conditionnel) vs Discriminator (PatchGAN 3D)',
-        
-        'stylegan3': '[StyleGAN3-Med] Version médicale avec :\n- Adaptative Layer Normalization pour l\'infusion de metadata DICOM\n- Génération 1024x1024 avec préservation des structures anatomiques\n- Entraînement optimal sur les datasets NIH ChestX-ray14 et BraTS 3D',
-        
-        'dcgan': '[DCGAN-Med] Baseline pour :\n- Prototypage rapide sur petits datasets (ex: CheXpert 224x224)\n- Génération de masques segmentation (co-segmentation adversarial)\n- Compatibilité TPU/Kaggle Notebooks',
-        
-        'dicom': '[DICOM Engine] Pipeline critique pour :\n- Extraction automatique des tags (PatientAge, Modality, kVp)\n- Preprocessing GPU-acceleré (windowing, 3D resampling)\n- Conditional GAN via les métadonnées (ex: génération par pathologie)',
-        
-        'kaggle': '[Kaggle Med] Ressources clés :\n- Datasets : VinDr-Mammo (GAN-friendly DICOM), RSNA Pneumonia\n- Kernels : Preprocessing DICOM en TFRecords\n- Compétitions actives : Generation of Synthetic Brain MRIs (MICCAI 2024)',
-        
-        'deep learning': '[MedDL Frontiers] :\n- Transformers 3D pour génération volumétrique (nnUNet-GAN hybrid)\n- Diffusion models pour PET synthétique réaliste\n- Federated GANs pour données multi-centres (privacy-preserving)',
-        
-        'comparison': '[Benchmark Med-GANs] :\n- StyleGAN3-Radiology : Résolution ultra-haute (coût GPU ↑↑)\n- Med-Diffusion : Qualité supérieure mais sampling lent\n- LightGAN : Pour edge devices (portable ultrasound synthétique)',
-        
-        'github': '[MedGAN Toolkit] :\n<repo>\n- DICOM2GAN : Conversion DICOM→TFRecords optimisé\n- GAN-Zoo : Implémentations PyTorch des architectures médicales\n- MONAI-GAN : Extension pour le medical imaging\n</repo>',
-        
-        'default': 'Expert Medical-GAN : Interrogez-moi sur :\n- Fine-tuning sur datasets cliniques réels\n- Optimisation pour contraintes DICOM (DoseGAN pour CT low-dose)\n- Intégration PACS/PyDICOM dans le pipeline GAN\n- Evaluation FDA/CE des modèles génératifs'
-    };
+        'hi':'hello ,pliz specialize in medical GAN research',
+      'gan': 'GAN stands for Generative Adversarial Network. It is a type of artificial intelligence (AI) model used to generate new, realistic data, such as images, sounds, or texts. A GAN consists of two parts: 1. **Generator** – This part tries to create fake data that looks real. 2. **Discriminator** – This part tries to tell the difference between real data and the fake data made by the generator. They work against each other (like a game). The generator gets better at making realistic data. The discriminator gets better at spotting fake data.',
+    'stylegan3': 'StyleGAN3 uses style-based generator architecture with adaptive augmentation, ideal for high-resolution medical imaging. It improves upon previous versions with better equivariance and reduced artifacts.',
+    'thanks': ' welcome!specialize in medical GAN research',
+    'dcgan': 'DCGAN (Deep Convolutional GAN) uses deep convolutional networks with batch normalization, suitable for basic image generation tasks. It\'s a foundational architecture for many medical imaging projects.',
+    
+    'dicom': 'DICOM (Digital Imaging and Communications in Medicine) is the standard format for medical imaging data. Essential for GAN training with modalities like X-rays, CT scans, and MRIs. Includes rich metadata for conditional generation.',
+    
+    'kaggle': 'Kaggle hosts medical imaging datasets (like RSNA, NIH Chest X-rays) perfect for GAN experiments. Offers GPU kernels and community benchmarks for model validation.',
+    
+    'deep learning': 'Deep learning techniques (CNNs, Transformers) power modern GANs. In medical imaging, they enable: anomaly detection, data augmentation, and synthetic patient generation while preserving privacy.',
+    
+    'comparison': 'Key differences: StyleGAN3 offers higher resolution and better stability for medical images, while DCGAN is simpler to implement for prototyping. Transformers may outperform both for 3D volumes.',
+    
+    'github': 'Our GitHub repository contains the full implementation: <a href="https://github.com/Siamsell/medical-image-gan" target="_blank">github.com/Siamsell/medical-image-gan</a>. Includes DICOM preprocessing scripts and Kaggle dataset loaders.',
+    
+    'default': 'I specialize in medical GAN research. Ask about: architectures (StyleGAN3/DCGAN), DICOM datasets, Kaggle competitions, or deep learning techniques for synthetic medical image generation!'
+};
             for (const [key, value] of Object.entries(responses)) {
                 if (query.includes(key)) return value;
             }
