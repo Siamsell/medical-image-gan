@@ -2,17 +2,9 @@
   <h1 style="font-size: 8em; font-weight: 900; background: linear-gradient(45deg, #FFD700, #DB7093, #051C2F); -webkit-background-clip: text; color: transparent; text-shadow: 2px 2px 8px rgba(0,0,0,0.2); margin-bottom: 0;">
    Generative Adversarial Networks (GANs) 
   </h1>
-  <P>Generative Adversarial Networks (GANs) were introduced by Ian Goodfellow and his colleagues in 2014. GANs are a class of neural networks that autonomously learn patterns in the input data to generate new examples resembling the original dataset.
-GAN’s architecture consists of two neural networks:
-Generator: creates synthetic data from random noise to produce data so realistic that the discriminator cannot distinguish it from real data.
-Discriminator: acts as a critic, evaluating whether the data it receives is real or fake.
-They use adversarial training to produce artificial data that is identical to actual data.</P>
+  <P>Generative Adversarial Networks (GANs) were introduced by Ian Goodfellow and his colleagues in 2014. GANs are a class of neural networks that autonomously learn patterns in the input data to generate new examples resembling the original dataset.</P>
   <div align="center">
   <img src="https://od.lk/s/ODZfNjkzODQyNDhf/GAN-1.png" alt="Banner" style="border-radius: 15px; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-  <h1 style="font-size: 2.8rem; font-weight: 800; background: linear-gradient(90deg, #051C2F, #DB7093); -webkit-background-clip: text; color: transparent; margin-bottom: 0.5rem;">
-    Medical Image Synthesis with GANs
-  </h1>
-  
   <div style="display: flex; justify-content: center; gap: 1rem; margin: 1.5rem 0;">
     <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
