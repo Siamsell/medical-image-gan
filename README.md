@@ -13,7 +13,12 @@ A **Generative Adversarial Network (GAN)** is a machine learning algorithm that 
 - **Generator**: Produces synthetic data (e.g., images) from noise.
 - **Discriminator**: Learns to identify whether data is real or synthetic data.
 Both models are trained jointly within a framework of a game where the generator attempts to deceive the discriminator, and the discriminator attempts to detect counterfeit data.
-
+-
+graph TD
+    Noise -->|Z| Generator
+    Generator -->|Fake Images| Discriminator
+    Real_Images -->|X| Discriminator
+    Discriminator -->|Loss| Generator
 ---
 ## Project Description
 ### 1. Dataset Preparation
@@ -43,13 +48,14 @@ We started the project from an open-source GAN repository on GitHub. The model a
 ---
 ## Technologies Used
 
-- Python 3.x
-
-- PyTorch (or TensorFlow, depending on your implementation)
-- NumPy
-- fast ai
-- Matplotlib
-- 3D Slicer (for DICOM conversion)
+| Tool / Library    | Purpose                             |
+|-------------------|-------------------------------------|
+| Python 3.x        | Programming language                |
+| PyTorch / TensorFlow | Deep learning frameworks           |
+| NumPy             | Numerical computation               |
+| Matplotlib        | Visualization                       |
+| fastai            | Training simplification             |
+| 3D Slicer         | DICOM image conversion              |
 ---
 ##  Livale Demo
 
