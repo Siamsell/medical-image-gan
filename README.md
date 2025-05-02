@@ -120,8 +120,9 @@ We started the project from an open-source GAN repository on GitHub. The model a
 ![Training Loss](https://od.lk/s/ODZfNjkzODM3NjFf/loss.jpg)
 ---
 ## Authors
-<div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin: 2rem 0;"> <div style="text-align: center;"> <div style="width: 120px; height: 120px; background: #E6E6FA; border-radius: 50%; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; font-size: 2rem; color: #170637;">SS</div> <h4 style="margin: 0;">Sellami Siham</h4> <p style="color: #666; margin: 0.5rem 0 0;">Lead Researcher</p> </div> <div style="text-align: center;"> <div style="width: 120px; height: 120px; background: #FFE4E1; border-radius: 50%; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; font-size: 2rem; color: #661B0E;">FZ</div> <h4 style="margin: 0;">Fatma Zouhre</h4> <p style="color: #666; margin: 0.5rem 0 0;">Data Engineer</p> </div> <div style="text-align: center;"> <div style="width: 120px; height: 120px; background: #F0FFF0; border-radius: 50%; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; font-size: 2rem; color: #2E8B57;">IS</div> <h4 style="margin: 0;">Ikram Saidani</h4> <p style="color: #666; margin: 0.5rem 0 0;">ML Engineer</p> </div> </div><div align="center" style="margin-top: 3rem; padding: 2rem 0; border-top: 1px solid #eee;"> <a href="https://github.com/Siamsell/medical-image-gan" style="display: inline-block; background: #051C2F; color: white; padding: 0.8rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 600; transition: all 0.3s ease;"  ```
-
+## SS | Sellami Siham
+## FZ | Fatma Zouhre
+## IS | Ikram Saidani
 ## Future Improvements
 
 - Use high-end **StyleGAN2/3** modules
