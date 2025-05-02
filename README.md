@@ -1,17 +1,42 @@
 <div align="center">
-  <h1 style="font-size: 8em; font-weight: 900; background: linear-gradient(45deg, #FFD700, #DB7093, #051C2F); -webkit-background-clip: text; color: transparent; text-shadow: 2px 2px 8px rgba(0,0,0,0.2); margin-bottom: 0;">
-   Generative Adversarial Networks (GANs) 
+  <h1 style="font-size: 3.5rem; font-weight: 800; background: linear-gradient(90deg, #051C2F, #DB7093); -webkit-background-clip: text; color: transparent; margin-bottom: 1rem; font-family: 'Segoe UI', sans-serif;">
+    MEDICAL IMAGE SYNTHESIS WITH GANS
   </h1>
-  <P>Generative Adversarial Networks (GANs) were introduced by Ian Goodfellow and his colleagues in 2014. GANs are a class of neural networks that autonomously learn patterns in the input data to generate new examples resembling the original dataset.</P>
-  <div align="center">
-  <img src="https://od.lk/s/ODZfNjkzODQyNDhf/GAN-1.png" alt="Banner" style="border-radius: 15px; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-  <div style="display: flex; justify-content: center; gap: 1rem; margin: 1.5rem 0;">
-    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
+  
+  <div style="max-width: 800px; margin: 0 auto 2rem; padding: 0 1rem;">
+    <p style="font-size: 1.1rem; color: #555; line-height: 1.6;">
+      Advanced DCGAN architecture enhanced with StyleGAN techniques for generating 
+      high-fidelity medical images from DICOM datasets
+    </p>
+  </div>
+
+  <div style="display: flex; justify-content: center; gap: 1.5rem; margin: 2rem 0;">
+    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white&logoWidth=20">
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+    <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=Jupyter&logoColor=white">
     <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge">
   </div>
 </div>
 
+<div align="center" style="margin: 3rem 0;">
+  <img src="https://od.lk/s/ODZfNjkzODQyNDhf/GAN-1.png" alt="GAN Architecture" style="border-radius: 12px; max-width: 90%; box-shadow: 0 8px 24px rgba(0,0,0,0.12); border: 1px solid rgba(0,0,0,0.08);">
+</div>
+
+## ✨ Key Features
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
+  <div style="background: #F8F9FA; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+    <h3 style="color: #051C2F; margin-top: 0;">Medical-Grade Synthesis</h3>
+    <p>Generate DICOM-compatible synthetic images with anatomical accuracy</p>
+  </div>
+  <div style="background: #F8F9FA; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+    <h3 style="color: #051C2F; margin-top: 0;">Hybrid Architecture</h3>
+    <p>DCGAN stability combined with StyleGAN's visual quality</p>
+  </div>
+  <div style="background: #F8F9FA; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+    <h3 style="color: #051C2F; margin-top: 0;">Clinical Validation</h3>
+    <p>Quantitative metrics (FID, SSIM) for medical relevance</p>
+  </div>
+</div>
 # Medical Image Synthesis with GANs
 The project entails employing **Generative Adversarial Networks (GANs)**—an ambitious class of deep learning models—to create realistic medical images. The method is used in the **DCGAN (Deep Convolutional GAN)** model with inspiration from **StyleGAN** for extra visual realism and diversity.
 
