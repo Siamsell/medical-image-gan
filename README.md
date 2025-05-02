@@ -26,12 +26,12 @@ graph TD
     F -->|Mise à jour| B
     F -->|Mise à jour| E
     
-    classDef noise fill:#F0F8FF,stroke:#4682B4,stroke-width:2px
-    classDef generator fill:#E6E6FA,stroke:#9370DB,stroke-width:2px
-    classDef fake fill:#FFE4E1,stroke:#FF6347,stroke-width:2px
-    classDef real fill:#F0FFF0,stroke:#2E8B57,stroke-width:2px
-    classDef discriminator fill:#FFF0F5,stroke:#DB7093,stroke-width:2px
-    classDef loss fill:#FFFFE0,stroke:#FFD700,stroke-width:2pxassDef loss fill:#FFFFE0,stroke:#FFD700,stroke-width:2px
+    classDef noise fill:#F0F8FF,stroke:rgb(5, 28, 47),stroke-width:2px
+    classDef generator fill:#E6E6FA,stroke:rgb(23, 6, 55),stroke-width:2px
+    classDef fake fill:#FFE4E1,stroke:rgb(102, 27, 14),stroke-width:2px
+    classDef real fill:#F0FFF0,stroke: #2E8B57,stroke-width:2px
+    classDef discriminator fill:rgb(213, 171, 185),stroke:#DB7093,stroke-width:2px
+    classDef loss fill:rgb(186, 186, 170),strok e:#FFD700,stroke-width:2pxassDef loss fill:rgb(154, 154, 108),stroke:rgb(87, 79, 30),stroke-width:2px
 ```
 ## Project Description
 ### 1. Dataset Preparation
