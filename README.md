@@ -3,7 +3,7 @@
     GANS
   </h1>
   <div align="center">
-  <img src="https://via.placeholder.com/800x200/051C2F/F0F8FF?text=Medical+GAN+Framework" alt="Banner" style="border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <img src="[https://via.placeholder.com/800x200/051C2F/F0F8FF?text=Medical+GAN+Framework](https://od.lk/s/ODZfNjkzODM2OTRf/dcgansimple.jpg)" alt="Banner" style="border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
   
   <h1 style="font-size: 2.8rem; font-weight: 800; background: linear-gradient(90deg, #051C2F, #DB7093); -webkit-background-clip: text; color: transparent; margin-bottom: 0.5rem;">
     Medical Image Synthesis with GANs
