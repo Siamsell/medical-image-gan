@@ -25,7 +25,7 @@
     style="
       width: 200px;          /* Ajustez la taille */
       height: 200px;         /* Carré pour un cercle parfait */
-      border-radius: 10%;    /* Forme circulaire */
+      border-radius: 50%;    /* Forme circulaire */
       object-fit: cover; 
    margin-top: 2rem; /* Garantit que l'image remplit le cercle */
       box-shadow: 0 8px 24px rgba(0,0,0,0.12); 
