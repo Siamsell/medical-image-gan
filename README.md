@@ -92,6 +92,7 @@ We started the project from an open-source GAN repository on GitHub. The model a
 - `outputs/` – Where images should be output after each epoch
 - `imagme_medical.zip/` – JPG image storage directory created from DICOM for training
 -  `stylgan.ipynb/` _ StyleGAN3 model
+-  -  `costum-dataset.ipynb/` _ 
 ---
 ## Technologies Used
 
@@ -110,7 +111,37 @@ We started the project from an open-source GAN repository on GitHub. The model a
 ---
 ## Sample Results
 ### DCGAN Output
-
+## Dataset Name and Provider
+-Dataset Name: Pancreas-CT
+- Provider: The Cancer Imaging Archive (TCIA)
+-URL for Access:
+[dicom dataset]([https://github.com/Siamsell/medical-image-gan](https://www.cancerimagingarchive.net/collection/pancreas-ct/))**
+## Reading DICOM files:
+DICOM files within each patient directory were searched and read recursively using the
+pydicom library.
+Slicing sorting:
+Slices were sorted based on their Z-axis position (ImagePositionPatient[2]) to maintain
+anatomical order. Volume standardization: Limited each volume to a maximum of 128
+slices for intra-sample homogeneity. Normalization and resizing: Normalized all 2D slices
+to pixel intensity range [0, 255] and resized to a default resolution of 256×256 pixels using
+PIL library.
+## Format conversion:
+Converted preprocessed slices to individual JPEG (.jpg) images instead of the original
+DICOM format to easily input into 2D convolutional networks.
+Archiving:
+Finally, the complete output directory containing the JPEG images was archived into a
+ZIP file for easy storage and retrieval. Upon completion of creating the ZIP archive, the
+file was stored on the local system. An attempt to drop empty slices, the final filtering
+step was carried out to improve further the quality of the dataset.
+Zero-filled slice is a fully black 2D image (approximately equal pixel intensity
+to zero) with no useful anatomical information. These are typically at the beginning
+and end of CT volumes where no patient tissue is represented. Low pixel intensity slices
+were removed from the data to ensure that the model trains on only useful anatomical
+information.
+After the removal of all such blank slices, the cleaned collection of JPEG images were
+then uploaded to Kaggle again as a cleaned curated dataset. Subsequent to this cleaned
+and curated dataset, a Deep Convolutional Generational Adversarial Network (DCGAN)
+was also trained for the generation of realistic fake abdominal CT slices.
 ![DCGAN](https://od.lk/s/ODZfNjkzODM2OTRf/dcgansimple.jpg)
 ### StyleGAN-Inspired Output
 
