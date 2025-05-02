@@ -24,6 +24,12 @@ graph TD
     E --> F[Loss Feedback]
     F -->|Update| B
     F -->|Update| E
+ classDef noise fill:#F0F8FF,stroke:#4682B4,stroke-width:2px
+    classDef generator fill:#E6E6FA,stroke:#9370DB,stroke-width:2px
+    classDef fake fill:#FFE4E1,stroke:#FF6347,stroke-width:2px
+    classDef real fill:#F0FFF0,stroke:#2E8B57,stroke-width:2px
+    classDef discriminator fill:#FFF0F5,stroke:#DB7093,stroke-width:2px
+    classDef loss fill:#FFFFE0,stroke:#FFD700,stroke-width:2px
 ```
 ## Project Description
 ### 1. Dataset Preparation
