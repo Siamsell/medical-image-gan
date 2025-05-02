@@ -3,7 +3,7 @@
     MEDICAL IMAGE SYNTHESIS WITH GANS
   </h1>
   
-  <div style="max-width: 800px; margin: 0 auto 2rem; padding: 0 1rem;">
+  <div style="max-width: 600px; margin: 0 auto 2rem; padding: 0 1rem;">
     <p style="font-size: 1.1rem; color: #555; line-height: 1.6;">
       Advanced DCGAN architecture enhanced with StyleGAN techniques for generating 
       high-fidelity medical images from DICOM datasets
