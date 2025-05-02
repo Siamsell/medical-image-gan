@@ -2,7 +2,19 @@
   <h1 style="font-size:5em; font-weight: 900; background: linear-gradient(45deg, #FFD700, #DB7093, #051C2F); -webkit-background-clip: text; color: transparent; text-shadow: 2px 2px 8px rgba(0,0,0,0.2); margin-bottom: 0;">
     GANS
   </h1>
+  <div align="center">
+  <img src="https://via.placeholder.com/800x200/051C2F/F0F8FF?text=Medical+GAN+Framework" alt="Banner" style="border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
   
+  <h1 style="font-size: 2.8rem; font-weight: 800; background: linear-gradient(90deg, #051C2F, #DB7093); -webkit-background-clip: text; color: transparent; margin-bottom: 0.5rem;">
+    Medical Image Synthesis with GANs
+  </h1>
+  
+  <div style="display: flex; justify-content: center; gap: 1rem; margin: 1.5rem 0;">
+    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+    <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge">
+  </div>
+</div>
 # Medical Image Synthesis with GANs
 The project entails employing **Generative Adversarial Networks (GANs)**—an ambitious class of deep learning models—to create realistic medical images. The method is used in the **DCGAN (Deep Convolutional GAN)** model with inspiration from **StyleGAN** for extra visual realism and diversity.
 
