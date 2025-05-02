@@ -498,24 +498,25 @@
         }
 
         function generateResponse(query) {
-    'gan': '[Medical-GAN] Framework génératif révolutionnaire pour :\n- Synthèse d\'images DICOM réalistes (CT/MRI/X-ray)\n- Augmentation de données préservant les annotations\n- Génération différentiable sous contraintes anatomiques\nArchitecture : Generator (U-Net++ conditionnel) vs Discriminator (PatchGAN 3D)',
-    
-    'stylegan3': '[StyleGAN3-Med] Version médicale avec :\n- Adaptative Layer Normalization pour l\'infusion de metadata DICOM\n- Génération 1024x1024 avec préservation des structures anatomiques\n- Entraînement optimal sur les datasets NIH ChestX-ray14 et BraTS 3D',
-    
-    'dcgan': '[DCGAN-Med] Baseline pour :\n- Prototypage rapide sur petits datasets (ex: CheXpert 224x224)\n- Génération de masques segmentation (co-segmentation adversarial)\n- Compatibilité TPU/Kaggle Notebooks',
-    
-    'dicom': '[DICOM Engine] Pipeline critique pour :\n- Extraction automatique des tags (PatientAge, Modality, kVp)\n- Preprocessing GPU-acceleré (windowing, 3D resampling)\n- Conditional GAN via les métadonnées (ex: génération par pathologie)',
-    
-    'kaggle': '[Kaggle Med] Ressources clés :\n- Datasets : VinDr-Mammo (GAN-friendly DICOM), RSNA Pneumonia\n- Kernels : Preprocessing DICOM en TFRecords\n- Compétitions actives : Generation of Synthetic Brain MRIs (MICCAI 2024)',
-    
-    'deep learning': '[MedDL Frontiers] :\n- Transformers 3D pour génération volumétrique (nnUNet-GAN hybrid)\n- Diffusion models pour PET synthétique réaliste\n- Federated GANs pour données multi-centres (privacy-preserving)',
-    
-    'comparison': '[Benchmark Med-GANs] :\n- StyleGAN3-Radiology : Résolution ultra-haute (coût GPU ↑↑)\n- Med-Diffusion : Qualité supérieure mais sampling lent\n- LightGAN : Pour edge devices (portable ultrasound synthétique)',
-    
-    'github': '[MedGAN Toolkit] :\n<repo>\n- DICOM2GAN : Conversion DICOM→TFRecords optimisé\n- GAN-Zoo : Implémentations PyTorch des architectures médicales\n- MONAI-GAN : Extension pour le medical imaging\n</repo>',
-    
-    'default': 'Expert Medical-GAN : Interrogez-moi sur :\n- Fine-tuning sur datasets cliniques réels\n- Optimisation pour contraintes DICOM (DoseGAN pour CT low-dose)\n- Intégration PACS/PyDICOM dans le pipeline GAN\n- Evaluation FDA/CE des modèles génératifs'
-};
+    const responses = {
+        'gan': '[Medical-GAN] Framework génératif révolutionnaire pour :\n- Synthèse d\'images DICOM réalistes (CT/MRI/X-ray)\n- Augmentation de données préservant les annotations\n- Génération différentiable sous contraintes anatomiques\nArchitecture : Generator (U-Net++ conditionnel) vs Discriminator (PatchGAN 3D)',
+        
+        'stylegan3': '[StyleGAN3-Med] Version médicale avec :\n- Adaptative Layer Normalization pour l\'infusion de metadata DICOM\n- Génération 1024x1024 avec préservation des structures anatomiques\n- Entraînement optimal sur les datasets NIH ChestX-ray14 et BraTS 3D',
+        
+        'dcgan': '[DCGAN-Med] Baseline pour :\n- Prototypage rapide sur petits datasets (ex: CheXpert 224x224)\n- Génération de masques segmentation (co-segmentation adversarial)\n- Compatibilité TPU/Kaggle Notebooks',
+        
+        'dicom': '[DICOM Engine] Pipeline critique pour :\n- Extraction automatique des tags (PatientAge, Modality, kVp)\n- Preprocessing GPU-acceleré (windowing, 3D resampling)\n- Conditional GAN via les métadonnées (ex: génération par pathologie)',
+        
+        'kaggle': '[Kaggle Med] Ressources clés :\n- Datasets : VinDr-Mammo (GAN-friendly DICOM), RSNA Pneumonia\n- Kernels : Preprocessing DICOM en TFRecords\n- Compétitions actives : Generation of Synthetic Brain MRIs (MICCAI 2024)',
+        
+        'deep learning': '[MedDL Frontiers] :\n- Transformers 3D pour génération volumétrique (nnUNet-GAN hybrid)\n- Diffusion models pour PET synthétique réaliste\n- Federated GANs pour données multi-centres (privacy-preserving)',
+        
+        'comparison': '[Benchmark Med-GANs] :\n- StyleGAN3-Radiology : Résolution ultra-haute (coût GPU ↑↑)\n- Med-Diffusion : Qualité supérieure mais sampling lent\n- LightGAN : Pour edge devices (portable ultrasound synthétique)',
+        
+        'github': '[MedGAN Toolkit] :\n<repo>\n- DICOM2GAN : Conversion DICOM→TFRecords optimisé\n- GAN-Zoo : Implémentations PyTorch des architectures médicales\n- MONAI-GAN : Extension pour le medical imaging\n</repo>',
+        
+        'default': 'Expert Medical-GAN : Interrogez-moi sur :\n- Fine-tuning sur datasets cliniques réels\n- Optimisation pour contraintes DICOM (DoseGAN pour CT low-dose)\n- Intégration PACS/PyDICOM dans le pipeline GAN\n- Evaluation FDA/CE des modèles génératifs'
+    };
             for (const [key, value] of Object.entries(responses)) {
                 if (query.includes(key)) return value;
             }
