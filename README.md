@@ -88,10 +88,10 @@ We started the project from an open-source GAN repository on GitHub. The model a
 ---
 
 - `dcgan-img-medical.ipynb` – Full GAN code (generator, discriminator, training)
-
 - `tojpg.ipynb` – Python script to convert JPG images from DICOM using slicer
 - `outputs/` – Where images should be output after each epoch
 - `imagmedical/` – JPG image storage directory created from DICOM for training
+-  `stylgan.ipynb/` _ StyleGAN3 model
 ---
 ## Technologies Used
 
