@@ -1,9 +1,9 @@
 <div align="center">
   <h1 style="font-size:5em; font-weight: 900; background: linear-gradient(45deg, #FFD700, #DB7093, #051C2F); -webkit-background-clip: text; color: transparent; text-shadow: 2px 2px 8px rgba(0,0,0,0.2); margin-bottom: 0;">
-    GANS
+    GANS 
   </h1>
   <div align="center">
-  <img src="(https://od.lk/s/ODZfNjkzODM2OTRf/dcgansimple.jpg)" alt="Banner" style="border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <img src="https://od.lk/s/ODZfNjkzODQyNDhf/GAN-1.png" alt="Banner" style="border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
   
   <h1 style="font-size: 2.8rem; font-weight: 800; background: linear-gradient(90deg, #051C2F, #DB7093); -webkit-background-clip: text; color: transparent; margin-bottom: 0.5rem;">
     Medical Image Synthesis with GANs
