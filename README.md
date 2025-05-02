@@ -16,14 +16,13 @@ Both models are trained jointly within a framework of a game where the generator
 
 ```mermaid
 graph TD
-    A[Noise Aléatoire]:::noise --> B[Générateur]:::generator
-    B --> C[Images Synthétiques]:::fake
-    D[Images Réelles]:::real --> E[Discriminateur]:::discriminator
+    A[Random Noise]:::noise --> B[Generator]:::generator
+    B --> C[Fake Images]:::fake
+    D[Real Images]:::real --> E[Discriminator]:::discriminator
     C --> E
-    E --> F[Feedback]:::loss
-    F -->|Mise à jour| B
-    F -->|Mise à jour| E
-    
+    E --> F[Loss Feedback]:::loss
+    F -->|Update| B
+    F -->|Update| E
     classDef noise fill:#F0F8FF,stroke:#051C2F,stroke-width:2px,color:black
     classDef generator fill:#E6E6FA,stroke:#170637,stroke-width:2px,color:black
     classDef fake fill:#FFE4E1,stroke:#661B0E,stroke-width:2px,color:black
