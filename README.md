@@ -56,7 +56,7 @@ The project started from an open-source GAN repository on GitHub. The models and
 
 ##  Livale Demo
 
-Visit the live demo: **[https://your-username.github.io/gan-project](https://your-username.github.io/gan-project)**  
+Visit the live demo: **[https://your-username.github.io/gan-project](ttps://github.com/Siamsell/medical-image-gan)**  
 (Replace this link with your actual GitHub Pages URL if applicable)
 
 ---
@@ -64,13 +64,14 @@ Visit the live demo: **[https://your-username.github.io/gan-project](https://you
 ## Sample Results
 
 Here are sample outputs from the trained GAN:
-
+DCGAN
 ![DCGAN](https://od.lk/s/ODZfNjkzODM2OTRf/dcgansimple.jpg)
-
+STYLE GAN
 ![style gan](https://od.lk/s/ODZfNjkzODM2OTZf/stylegan.jpg)
+Generator and Discriminator Loss During Training
 ![Generator and Discriminator Loss During Training](https://od.lk/s/ODZfNjkzODM3NjFf/loss.jpg)
 ---
-https://od.lk/s/ODZfNjkzODM3NjFf/loss.jpg
+
 ## Author
 
 - **Your Name**
