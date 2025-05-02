@@ -22,7 +22,7 @@
   <img src="https://od.lk/s/ODZfNjkzODQyNDhf/GAN-1.png" alt="GAN Architecture" style="border-radius: 20px; max-width: 50%; box-shadow: 0 8px 24px rgba(0,0,0,0.12); border: 1px solid rgba(0,0,0,0.08);">
 </div>
 
-## ✨ Key Features
+## Key Features
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
   <div style="background: #F8F9FA; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
     <h3 style="color: #051C2F; margin-top: 0;">Medical-Grade Synthesis</h3>
@@ -37,7 +37,9 @@
     <p>Quantitative metrics (FID, SSIM) for medical relevance</p>
   </div>
 </div>
-# Medical Image Synthesis with GANs
+</div>
+
+#  Medical Image Synthesis with GANs
 The project entails employing **Generative Adversarial Networks (GANs)**—an ambitious class of deep learning models—to create realistic medical images. The method is used in the **DCGAN (Deep Convolutional GAN)** model with inspiration from **StyleGAN** for extra visual realism and diversity.
 
 
