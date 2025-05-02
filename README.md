@@ -14,12 +14,16 @@ A **Generative Adversarial Network (GAN)** is a machine learning algorithm that 
 - **Discriminator**: Learns to identify whether data is real or synthetic data.
 Both models are trained jointly within a framework of a game where the generator attempts to deceive the discriminator, and the discriminator attempts to detect counterfeit data.
 -
+```mermaid  <!-- Pas d'espace entre ``` et mermaid -->
 graph TD
-    Noise -->|Z| Generator
-    Generator -->|Fake Images| Discriminator
-    Real_Images -->|X| Discriminator
-    Discriminator -->|Loss| Generator
----
+    A[Random Noise Z] --> B[Generator]
+    B --> C[Fake Images]
+    D[Real Images] --> E[Discriminator]
+    C --> E
+    E --> F[Loss Feedback]
+    F -->|Update| B
+    F -->|Update| E
+```  <!-- Fermeture avec ``` seul -->
 ## Project Description
 ### 1. Dataset Preparation
 
