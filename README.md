@@ -141,12 +141,12 @@ then uploaded to Kaggle again as a cleaned curated dataset. Subsequent to this c
 and curated dataset, a Deep Convolutional Generational Adversarial Network (DCGAN)
 was also trained for the generation of realistic fake abdominal CT slices.
 ## Sample Results
-### DCGAN-Inspired Output
+### DCGAN-Inspired Output (300 epoch)
 ![DCGAN](https://od.lk/s/ODZfNjkzODM2OTRf/dcgansimple.jpg)
-### StyleGAN-Inspired Output
+### StyleGAN-Inspired Output (100kimg)
 
 ![StyleGAN](https://od.lk/s/ODZfNjkzODM2OTZf/stylegan.jpg)
-### Training Losses
+### Training Losses DCGAN
 
 ![Training Loss](https://od.lk/s/ODZfNjkzODM3NjFf/loss.jpg)
 ---
