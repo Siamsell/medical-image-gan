@@ -109,8 +109,6 @@ We started the project from an open-source GAN repository on GitHub. The model a
 
  **[GitHub Project Page](https://github.com/Siamsell/medical-image-gan)**
 ---
-## Sample Results
-### DCGAN Output
 ## Dataset Name and Provider
 - Dataset Name: Pancreas-CT
 - Provider: The Cancer Imaging Archive (TCIA)
@@ -142,7 +140,7 @@ After the removal of all such blank slices, the cleaned collection of JPEG image
 then uploaded to Kaggle again as a cleaned curated dataset. Subsequent to this cleaned
 and curated dataset, a Deep Convolutional Generational Adversarial Network (DCGAN)
 was also trained for the generation of realistic fake abdominal CT slices.
-
+## Sample Results
 ### DCGAN-Inspired Output
 ![DCGAN](https://od.lk/s/ODZfNjkzODM2OTRf/dcgansimple.jpg)
 ### StyleGAN-Inspired Output
