@@ -4,8 +4,8 @@
   <meta name="description" content="Projet de génération d'images médicales avec GANs. Utilisation de l'IA pour créer des images réalistes à partir de données médicales.">
   <meta name="keywords" content="IA, GAN, imagerie médicale, intelligence artificielle, deep learning">
   <meta name="robots" content="index, follow">
-  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
   <title>Medical Image Generation with GANs</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -126,27 +126,6 @@
       letter-spacing: -0.025em;
       animation: slideIn 0.8s ease-out both, colorShift 4s ease-in-out infinite alternate;
 }
-
-@keyframes slideIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes colorShift {
-  from {
-    color: var(--primary);
-  }
-  to {
-    color:rgb(231, 196, 249);
-  }
-}
-
     .section:hover {
       transform: translateY(-2px);
       box-shadow: 0 4px 12px rgba(0,0,0,0.05);
@@ -380,6 +359,9 @@
     
     .epoch-comparison {
       display: grid;
+      display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
       grid-template-columns: repeat(4, 1fr);
       gap: 1rem;
       margin-top: 1rem;
@@ -475,12 +457,6 @@
       overflow: auto;
       animation: fadeIn 0.3s;
     }
-    
-    @keyframes fadeIn {
-      from {opacity: 0;}
-      to {opacity: 1;}
-    }
-    
     .modal-content {
       display: block;
       max-width: 90%;
@@ -491,11 +467,6 @@
       left: 50%;
       transform: translate(-50%, -50%);
       animation: zoomIn 0.3s;
-    }
-    
-    @keyframes zoomIn {
-      from {transform: translate(-50%, -50%) scale(0.9);}
-      to {transform: translate(-50%, -50%) scale(1);}
     }
     
     .close {
@@ -608,15 +579,7 @@
   line-height: 1.6;
 }
 
-@media (max-width: 768px) {
-  .team-members {
-    margin-top: 1rem;
-  }
-  
-  .team-members p {
-    font-size: 0.85rem;
-  }
-}
+
     .footer-column a:hover {
       color: white;
     }
@@ -670,22 +633,24 @@
 }
 
 
-    @media (max-width: 768px) {
-      .container {
-        flex-direction: column;
-        padding: 16px;
-      }
-    }
-    @media (max-width: 768px) {
-      .container {
-        flex-direction: column;
-        padding: 16px;
-      }
-      
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 10px;
+  }
+   
+    
       .header-container h1 {
         font-size: 2rem;
       }
-      
+      .video-container iframe {
+    height: 200px;
+  }
+
+  .button-group {
+    flex-direction: column;
+    align-items: stretch;
+  }
       .header-container p {
         font-size: 1rem;
       }
@@ -693,15 +658,59 @@
       .main-content {
         margin-top: 0;
       }
-      
+      .epoch-item {
+    width: 90%; /* image prend presque toute la largeur */
+  }
       .gan-carousel {
         height: 350px;
       }
-      
+      .epoch-label {
+    font-size: 0.9rem;
+  }
       .epoch-comparison {
         grid-template-columns: repeat(2, 1fr);
+        flex-direction: column;
+        align-items: center;
       }
     }
+    
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes colorShift {
+  from {
+    color: var(--primary);
+  }
+  to {
+    color:rgb(231, 196, 249);
+  }
+}
+@media (max-width: 768px) {
+  .team-members {
+    margin-top: 1rem;
+  }
+  
+  .team-members p {
+    font-size: 0.85rem;
+  }
+}
+@keyframes zoomIn {
+      from {transform: translate(-50%, -50%) scale(0.9);}
+      to {transform: translate(-50%, -50%) scale(1);}
+    }
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+    
   </style>
 </head>
 <body>
@@ -959,7 +968,7 @@
     </div>
     <div class="team-members">
       <h4>Project Team:</h4>
-      <p> SELLAMI Siham  •  Bedj bedj Fatma zohra •  Saidani ikram </p>
+      <p> SELLAMI Siham  •  Bedj bedj fatma zohra •  Saidani ikram </p>
     </div>
     <div class="copyright">
       <p>&copy; 2025 Medical Image Generation with GANs. All rights reserved.</p>
