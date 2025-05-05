@@ -1,6 +1,6 @@
 <div align="center">
   <h1 style="font-size: 3.5rem; font-weight: 900; background: linear-gradient(90deg, #051C2F, #DB7093); -webkit-background-clip: text; color: transparent; margin-bottom: 1rem; font-family: 'Segoe UI', sans-serif;">
-    MEDICAL IMAGE SYNTHESIS WITH GANS
+    MEDICAL IMAGE SYNTHESIS WITH GANS  DCGAN / STYLEGAN
   </h1>
   
   <div style="max-width: 600px; margin: 0 auto 2rem; padding: 0 1rem;">
